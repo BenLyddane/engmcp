@@ -1,0 +1,381 @@
+{
+  "completed": 200,
+  "total": 1355,
+  "groups": [
+    {
+      "name": "Efficiency Ratio (%, COP, EER, etc.)",
+      "count": 4,
+      "unitIds": [
+        "6438b7cf-d19e-4cc7-ac14-9b70027616cc",
+        "1a220ac9-0434-491b-aad9-a57b3b5a8810",
+        "cc075c8a-8970-4aa1-9ed4-c6d670866a49",
+        "bccc1208-d1ec-4d16-8e4f-68fcf9486eb4"
+      ]
+    },
+    {
+      "name": "Temperature",
+      "count": 4,
+      "unitIds": [
+        "a9914606-e69f-4abb-9c97-770fc634d344",
+        "4174f771-9593-489a-a7af-2fd4038032c0",
+        "329060da-3794-428d-8551-21e394610fff",
+        "9ee9c2de-a924-4799-83c5-6e88a29628b7"
+      ]
+    },
+    {
+      "name": "Dimensionless",
+      "count": 53,
+      "unitIds": [
+        "7eb4782a-623e-4a86-92a8-cb43317635d9",
+        "41244433-1583-4b9a-9f0a-4412d31d8c57",
+        "bade7ded-ff86-4cea-a1e1-5e050392c3f5",
+        "08eb78cf-dfef-497a-8d09-dc44fedb1e52",
+        "283476f7-3a64-4adc-8af9-7157843987c7",
+        "aadf41ca-6003-4b9f-9ade-0ebfa1d97666",
+        "26fb797c-86e8-4470-84c1-e19b307d044c",
+        "9cb12faf-7874-48a0-8d0e-ea980fd6f7ab",
+        "3fc938a8-c187-423d-be43-7d3f4f05559f",
+        "4dd2ad02-2071-45cb-bcb2-b3c143016210",
+        "110fe175-7699-4c6f-acd4-0ad598962c04",
+        "7513d613-f2cb-4bb8-a193-dcd8650fbffc",
+        "6ceda9bd-68d9-4df0-b385-a736ecb875e1",
+        "49a0ffef-d70f-4a29-bae5-d09f291d38e6",
+        "368c2793-8358-4cc3-8885-3b5a4b876d52",
+        "84edb52a-ada0-449d-8538-5a41be933c63",
+        "442d471a-7c8c-484d-ae71-57d7e267ff70",
+        "7b2df464-8f46-4dc2-9d5b-e11cb387e8db",
+        "5cea92ef-6336-4280-ac8f-ada2e55e2e92",
+        "3f264bae-d85d-4c0d-b8b8-e29f848cd0ba",
+        "bb187f17-8c47-49c3-b2e6-d406f5f15fdd",
+        "429d6419-22dc-4175-9935-37a0e20a7b66",
+        "d701679c-26f2-41ab-85be-516ea1070fcb",
+        "676c20a9-a402-4b92-b883-42dc37fabc68",
+        "73d564d1-3d66-44b8-a666-742562274e49",
+        "850b5a3c-dd86-465f-b38d-01a01d0c3976",
+        "67b84b45-8a67-4271-958e-a5688e60c9d0",
+        "c23ab445-96ac-475e-9972-d8ba2fd39aaa",
+        "5d916974-591f-4b20-8386-4a527b8bf18c",
+        "ec65c68a-65fd-47a1-85aa-95b6b33d7c9d",
+        "e9ad14fc-bae1-4d0c-9edf-6158e9a2b17b",
+        "a6a1128e-9007-49ac-8314-7d54171aade5",
+        "a60be85c-ee47-44dc-a120-9b8f9f0d18d6",
+        "97e970cf-1411-4b34-9bad-2f133918b42b",
+        "dbc14030-5ec6-4765-b3be-9f41179dd8a0",
+        "00ad0d15-6b15-40b5-92e3-ce4c71e0f12a",
+        "bf4ab1dc-3bad-44e7-aca6-aae598a2545a",
+        "a818c02a-6fa5-446b-9c2b-466d6bc7fa16",
+        "9ea251d0-a8c1-426b-a634-2eb7df916f1f",
+        "b45cc178-2a21-4ae1-b938-61cc64ec1008",
+        "9f30edb7-210c-49ca-9588-44a566288ac0",
+        "2e17c94e-539f-4582-bd49-a8533ee298e0",
+        "a78af871-25bf-44a4-b496-fd635cb8fa5d",
+        "8e067c38-40e7-4483-aba3-9ede49529e17",
+        "cfc9868d-67b9-488c-bd45-799371c49bde",
+        "67f9bc85-74bc-4c91-9f25-ba0a361edfd1",
+        "50786244-c2ee-49ed-bda2-562324ccf4f3",
+        "9250b04c-fe1c-4681-911a-70baf748951d",
+        "577c24d9-78c1-43f1-8704-fd0b2fb03d41",
+        "fdc3aea5-9044-45cb-98f5-f8cad29b7cd2",
+        "ade99c4c-8d92-463f-bb6e-14214b2142ce",
+        "1e08ece1-9697-4b6a-a0f6-8237f57c6387",
+        "0e70319c-e65a-4da1-8161-58c50043caa4"
+      ]
+    },
+    {
+      "name": "Volumetric Flow Rate (GPM, CFM, L/min, etc.)",
+      "count": 19,
+      "unitIds": [
+        "119071d1-2471-4466-94d1-f8170005ecdb",
+        "05874ec5-b4a5-4ecc-9116-7b172056103b",
+        "c9fe94b5-29fb-49bd-a7d4-16e3e533a4e8",
+        "c69ef3e9-7032-489d-9a70-2105417b0c90",
+        "736dcf5e-37b4-4152-9c27-237bca9a51de",
+        "e9f2a467-4d72-43cc-bd1b-357061e99cfc",
+        "425751b9-19af-431a-a751-20dc3c6489f0",
+        "80f0a4f6-8471-4690-8293-7ee19e782c0a",
+        "b9461064-ac4d-40cf-99df-540e847c2d5d",
+        "e36ab442-41c7-441f-8643-8b0077ebdf68",
+        "a6bbb491-4296-4601-ab89-e193ade58716",
+        "bd97a3a7-83ee-46ce-a7df-48b7b9cf2d48",
+        "e62c8da3-8601-454b-accb-efe2da7ed399",
+        "3f00928d-747e-40e3-b238-b7381effd1c0",
+        "47bdf72b-769b-436c-b656-acbf40344a9c",
+        "8c8fa582-b18d-474a-8105-e31526ea2b3d",
+        "3707795e-645f-4613-9bf2-48dbd159028f",
+        "9c495816-f2ae-4e62-80c4-1517a40834e9",
+        "75559c8c-db41-4b87-99f1-c316df8020af"
+      ]
+    },
+    {
+      "name": "Cooling/Heating Capacity (tons, BTU/h, kW, etc.)",
+      "count": 9,
+      "unitIds": [
+        "c6191b24-7451-40f4-8feb-b6756fe51494",
+        "17c30a77-96da-4e08-b7c2-f6f89c62d226",
+        "2df02635-fdba-40d8-aa07-069b8e78cc66",
+        "c618a1af-3fbf-47cf-ac03-c27999e159cf",
+        "e1d829e0-94b8-4537-aa2b-3abd731d022b",
+        "4f6617b1-dce4-4659-9948-453b7c59a6af",
+        "27dcf8e4-2a21-4c55-8ddb-8f05683e370c",
+        "4dc285a0-b870-43f1-85b3-d6dc1a63de07",
+        "e3372ea1-525a-4912-a232-da428ca52d47"
+      ]
+    },
+    {
+      "name": "Electrical Current",
+      "count": 7,
+      "unitIds": [
+        "75adecc3-26f8-4607-ac6c-2f0a9072e773",
+        "d72379f2-9847-45cc-957f-5b2686d5b4b7",
+        "947053b6-f99c-4b1d-829c-98dbb4d3a99d",
+        "88253b05-9e73-4662-ba21-cffea7c46d30",
+        "f3179f35-9286-4570-90b5-612c8941a8f7",
+        "0b5979b0-b24f-4546-8dd3-36c425dede63",
+        "554c2f06-b46f-4cbf-b7ed-538e346caa01"
+      ]
+    },
+    {
+      "name": "Length",
+      "count": 15,
+      "unitIds": [
+        "b3badaeb-1ef3-4aaf-ae73-c93b8a22771e",
+        "cfef805c-0d53-47e3-9427-5870c004ce16",
+        "df510176-1e20-466a-a44b-94c56e70c8d9",
+        "01cdd288-ebec-4b7a-b030-862c1334d9bd",
+        "0417e0ca-5f59-4ccf-864b-ab036c16cd12",
+        "25b2ac84-e0da-4c83-8d3b-85a412bf66bd",
+        "d8920358-333e-4f6f-ae64-ec0ebaaeb7d5",
+        "0f53db37-167f-48d7-a3d4-5ac43355b23c",
+        "226700e9-fb1b-4366-8df3-2fc089359578",
+        "f1087e44-9463-449a-91e6-892892490542",
+        "dc3010a9-a2ee-4290-ae77-3c96dfaa4008",
+        "80714b07-98a7-4751-9853-daf3a809930a",
+        "91c48344-ecfc-44c4-8b5e-0ca8cd08b08a",
+        "49c88829-3619-4760-9cb5-91d188d72f46",
+        "78c52d5c-b421-497c-923a-fb55d1c49be2"
+      ]
+    },
+    {
+      "name": "Area",
+      "count": 12,
+      "unitIds": [
+        "4664f240-e1bd-437c-8007-8b313f84b282",
+        "89a01ad8-1332-4315-990f-17a51a37a14a",
+        "12529203-8c9b-4fe1-9bbe-01bfacec0664",
+        "d30bde79-b5d6-48df-9132-bfd1340fac6c",
+        "f13825db-8afe-4dde-b0a7-59aaed35117f",
+        "cb3ecc95-9bcd-4574-9de4-c39c37191b95",
+        "b99cab66-6889-4a48-9363-30f85ddd385b",
+        "021356b5-3835-417c-84a2-5b96196174ec",
+        "496b5662-e29f-4663-b099-1d8b6495e696",
+        "917d4797-e797-4809-857e-091a37a9e27e",
+        "18b697f1-dbfd-4efd-8276-d13db6ce9111",
+        "00ee74a9-4139-43a9-8ac7-a6375948d895"
+      ]
+    },
+    {
+      "name": "Electrical Capacity (kVA, MVA, etc.)",
+      "count": 3,
+      "unitIds": [
+        "1aeb3df4-92da-4322-980e-c65d3d8f5401",
+        "fffc21e8-2581-4114-817c-a98da63d3ea9",
+        "91d08be5-cb4a-4ca0-b508-a428b0094a30"
+      ]
+    },
+    {
+      "name": "Electrical Voltage",
+      "count": 3,
+      "unitIds": [
+        "85708578-6043-458d-b046-f951e22d2d52",
+        "7d5bb19e-65fd-4400-8fc8-dc6f7f883d6e",
+        "3ab2bfab-f76a-48cb-a79b-a13cf0d4dc69"
+      ]
+    },
+    {
+      "name": "Time",
+      "count": 10,
+      "unitIds": [
+        "d4b2c854-3f1d-4d03-9e6a-0bd9ba871977",
+        "e40ba9b1-5821-4d10-ae23-a717dc98b8e5",
+        "20516f2f-1255-4e27-9f3d-a25130e5d644",
+        "230939f2-dec6-476d-b312-1fb7cde4fa8b",
+        "ee3a9457-79f4-436d-8668-00ad3e16b1cc",
+        "68db6791-33a0-42b8-9061-e2883856d9d6",
+        "594a47d2-8b77-478e-a762-d7f35bf1a2b0",
+        "163e8804-a1cc-431f-aa1f-c61d2e1a9a66",
+        "c2e3f9f3-fa3c-4442-a7a4-b7947fcb693b",
+        "202c4337-456a-4cfa-b4bc-2e8de342521b"
+      ]
+    },
+    {
+      "name": "Concentration",
+      "count": 9,
+      "unitIds": [
+        "6213d2d3-a4a2-45b3-9829-8520bb0e6b7b",
+        "7e3f9a24-8cfb-4a25-91dd-e7328b52e566",
+        "7c9d6427-dbd1-414b-bc68-e48215d22a1c",
+        "cf127f25-07d8-4bb9-a9d2-f5d3d7241ba6",
+        "ffb98273-2c1f-4087-9253-a161a506d4cb",
+        "cf256d03-a691-4a24-a73b-d7bd34a86dfa",
+        "b4e55275-934c-4049-bf13-00b92c79bf69",
+        "447c0ada-f684-48d9-aef8-42491f8c65a1",
+        "dc7b4832-2bb1-4cf0-9e16-821a84665945"
+      ]
+    },
+    {
+      "name": "Pressure",
+      "count": 9,
+      "unitIds": [
+        "b13ab5a1-933e-4974-82a5-927934df5555",
+        "7b25e652-db1b-45d2-b0bb-d808f52b50db",
+        "fa01078c-825b-4ee1-91d0-7282b854e99f",
+        "645cc3a2-2676-4112-9f7f-4a7ab1d3adb8",
+        "7b1bff94-eaac-4c35-a223-f1bfc19bd5e5",
+        "931bab01-e659-44e3-8b43-8cb68b175364",
+        "50a78dde-c89b-4250-8e0a-3b0b9ca79940",
+        "89662474-b3ce-4fbf-b1e0-ae453c63a561",
+        "dfad8dd6-cac5-462e-9e9e-a69c4414d2a0"
+      ]
+    },
+    {
+      "name": "Angle",
+      "count": 3,
+      "unitIds": [
+        "4d3737aa-c760-4066-b24c-c42c5d8c7df9",
+        "cd46a1b9-68fd-4888-9d64-86b2c71e6b77",
+        "ec59ef64-0ef3-4aad-ad70-e7c3750b89b7"
+      ]
+    },
+    {
+      "name": "Power",
+      "count": 3,
+      "unitIds": [
+        "77e5baec-dc17-427e-b204-7cd678ce0b6a",
+        "a0794487-16d5-49ab-82d4-155c826b5690",
+        "aa9add32-4d9e-44f0-8710-d4a6238a420b"
+      ]
+    },
+    {
+      "name": "Velocity",
+      "count": 5,
+      "unitIds": [
+        "b224df2a-cf63-42be-a807-a53b817dc9a2",
+        "c4f7e57d-0dba-461c-9345-76111b90be5f",
+        "651252f7-f227-4cf6-9e8a-aa2c1deb9a6b",
+        "1f33cbeb-698c-445e-96f6-099dcc83c3d9",
+        "c7e5bd11-16a7-497f-a082-346c491d5e6e"
+      ]
+    },
+    {
+      "name": "Sound Level",
+      "count": 4,
+      "unitIds": [
+        "e3a297cb-8ae4-4329-ab94-6eeba638445f",
+        "8d3fb279-e021-49ae-9f77-eb2daa558fbd",
+        "92cfaef7-3010-4693-b2f6-d5009e9c5321",
+        "5bea65fa-22e4-47d3-b377-78f8cf688d66"
+      ]
+    },
+    {
+      "name": "Volume",
+      "count": 6,
+      "unitIds": [
+        "4b2aced9-b585-4fac-82df-da0de3012df4",
+        "c9a28206-1c92-4fb0-b71e-63c677aeed81",
+        "53acc637-08d2-4d7e-9afd-65dcfa26e4c5",
+        "aa83e195-3fb4-404a-b051-c8b2fc312cd8",
+        "32bb20f5-acdd-464a-97a7-b89acc77e212",
+        "58b02f86-8ec6-487c-a83b-a945430f5ebe"
+      ]
+    },
+    {
+      "name": "Electrical Resistance",
+      "count": 5,
+      "unitIds": [
+        "f7f731e4-64f7-4e96-a52f-4d382297034c",
+        "8737fd50-1bda-42b2-95cf-c29a09638a58",
+        "0b5644e1-83cc-4051-a1c7-9e6a34b58ed4",
+        "a15740e8-1eee-483c-906e-84ffe02d6285",
+        "7cc7d1e8-799e-44b9-aba8-52cffd9098d2"
+      ]
+    },
+    {
+      "name": "Rotational Speed",
+      "count": 1,
+      "unitIds": [
+        "06169aec-6140-4d78-b1f7-c1c771c28e0d"
+      ]
+    },
+    {
+      "name": "Mass Flow Rate (lb/hr, kg/hr, etc.)",
+      "count": 4,
+      "unitIds": [
+        "05027c60-73d5-4c5a-8cdd-6dd55b05274c",
+        "a706246c-ba8d-4485-ac01-7ddb8bfa1796",
+        "971a45e5-6abf-4334-bd91-220a164408c8",
+        "21300c98-3dfb-4c56-a10d-688e2ae43fa2"
+      ]
+    },
+    {
+      "name": "Data Transfer Rate",
+      "count": 3,
+      "unitIds": [
+        "5133f26a-9b9e-4109-b815-99499e791245",
+        "3019b3d2-afde-4f3b-94e8-9b367b3b4ee4",
+        "6e529704-90ed-44eb-8278-04e4be97a87e"
+      ]
+    },
+    {
+      "name": "Power Density",
+      "count": 1,
+      "unitIds": [
+        "97ab4f17-3a94-4ed2-b3e2-78ef8f83477f"
+      ]
+    },
+    {
+      "name": "Mass",
+      "count": 2,
+      "unitIds": [
+        "634ef016-a0cf-42bc-a3a6-97c667eacda9",
+        "b99e2369-1c3c-4845-a42f-d65e145ed449"
+      ]
+    },
+    {
+      "name": "Force",
+      "count": 2,
+      "unitIds": [
+        "aef266f5-6215-495c-a66a-decf63cedac4",
+        "4c558565-2466-40e9-b9c7-4cde7271f4f1"
+      ]
+    },
+    {
+      "name": "Frequency",
+      "count": 1,
+      "unitIds": [
+        "3ef00f9a-81c4-4c22-b8f8-536a314b6803"
+      ]
+    },
+    {
+      "name": "Mass per Area",
+      "count": 1,
+      "unitIds": [
+        "77a8399b-8035-48e4-8d54-4e866f044ce6"
+      ]
+    },
+    {
+      "name": "Energy",
+      "count": 1,
+      "unitIds": [
+        "410c1ed4-a390-4eb4-8460-16084ffdc3f3"
+      ]
+    },
+    {
+      "name": "Density",
+      "count": 1,
+      "unitIds": [
+        "baec87e5-68cc-4b3c-a7e5-56d43625f685"
+      ]
+    }
+  ],
+  "lastUpdated": "2025-10-01T04:24:41.972Z"
+}

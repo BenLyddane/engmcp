@@ -1,0 +1,42 @@
+{
+  "name": "spec-type-generator",
+  "version": "1.0.0",
+  "description": "AI-powered generator for HVAC, Electrical, Plumbing, and Fire Protection spec types",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "generate:test": "npm run build && node dist/main.js test",
+    "generate:full": "npm run build && node dist/main.js full",
+    "convert:old-specs": "npm run build && node dist/converters/oldSpecTypeConverter.js",
+    "extract:units": "npm run build && node dist/postprocess/extractUnits.js",
+    "generate:units": "npm run build && node dist/postprocess/generateUnitGroups.js",
+    "generate:custom-conversions": "npm run build && node dist/postprocess/generateCustomConversions.js",
+    "link:units": "npm run build && node dist/postprocess/linkUnits.js",
+    "postprocess:all": "npm run extract:units && npm run generate:units && npm run link:units",
+    "match:components": "npm run build && node dist/matchers/componentSpecMatcher.js",
+    "cleanup:duplicates": "npm run build && node dist/postprocess/cleanupDuplicates.js",
+    "complete:conversions": "npm run build && node dist/postprocess/ensureCompleteConversions.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "hvac",
+    "electrical",
+    "plumbing",
+    "fire-protection",
+    "spec-types"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "convert-units": "^2.3.4",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/convert-units": "^2.3.12",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

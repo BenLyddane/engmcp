@@ -1,0 +1,2 @@
+componentTypeName,componentTypeId,specTypeId,specTypeName,units,valueType,specCategory,description,min,max,options,alternateNames,alternateUnits
+Absorption Water Chillers,b2379fec-9968-4251-8849-e3d85f363a55,306287f8-2099-45c5-b447-402f9b0f046b,Chilled Water Flow Rate,GPM,NUMERIC,UNKNOWN,Chilled Water Flow Rate,,,,[],[]

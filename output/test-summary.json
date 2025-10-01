@@ -1,0 +1,466 @@
+{
+  "specTypes": [
+    {
+      "id": "37e6837c-ced0-454e-83fe-697c041b3b7f",
+      "primaryName": "Ventilation Air Filtration Efficiency",
+      "alternateNames": [
+        "Filter Efficiency Rating",
+        "Particulate Removal Efficiency",
+        "Filter Performance Rating",
+        "Air Filter Efficiency Level",
+        "Filtration Effectiveness Percentage"
+      ],
+      "notNames": [
+        "Filter Pressure Drop",
+        "Filter Dust Holding Capacity",
+        "MERV Rating",
+        "Filter Surface Area"
+      ],
+      "description": "The percentage of airborne particles of a specific size range that are captured and retained by an air filter as tested under standardized conditions. This numeric efficiency value indicates the filter's ability to remove particulates from the air stream, typically expressed as a percentage (0-100%) for particles in various size ranges. Higher efficiency percentages indicate better particle removal performance. This measurement is fundamental for specifying indoor air quality requirements and is often derived from but distinct from MERV, HEPA, or ISO testing classifications.",
+      "domain": "HVAC",
+      "primaryUnit": "%",
+      "primaryUnitGroup": "Efficiency",
+      "alternateUnits": [
+        "decimal fraction",
+        "percentage"
+      ],
+      "valueType": "NUMERIC",
+      "minValue": 20,
+      "maxValue": 99.9995,
+      "allowsArray": true,
+      "examples": [
+        "85% efficiency at 0.3-1.0 micron particle size",
+        "99.97% efficiency for HEPA applications",
+        "65% efficiency minimum for commercial office spaces",
+        "95% efficiency at 1.0 micron for healthcare facilities"
+      ],
+      "industryStandards": [
+        "ASHRAE 52.2",
+        "ISO 16890",
+        "EN 1822",
+        "ASHRAE 62.1",
+        "ASHRAE 170",
+        "California Title 24",
+        "LEED v4 EQ Prerequisites"
+      ]
+    },
+    {
+      "id": "93c7bcff-23dd-44b9-b18c-d715424f7c08",
+      "primaryName": "Electrical Enclosure Rating",
+      "alternateNames": [
+        "Enclosure Protection Classification",
+        "Equipment Housing Rating",
+        "Electrical Box Rating",
+        "Environmental Protection Rating",
+        "Enclosure Type Designation"
+      ],
+      "notNames": [
+        "Arc Flash Rating",
+        "Short Circuit Rating",
+        "Ingress Protection Rating (IP Rating is international, NEMA is North American)"
+      ],
+      "description": "Classification system defining the degree of protection provided by electrical enclosures against environmental conditions including dust, water, corrosion, and hazardous atmospheres. NEMA ratings are the North American standard (UL 50, UL 50E) while IEC uses IP ratings. This specification determines the suitability of electrical equipment housings for specific installation environments, from indoor clean spaces to outdoor corrosive or explosive atmospheres.",
+      "domain": "ELECTRICAL",
+      "primaryUnit": "NEMA Rating",
+      "primaryUnitGroup": "Protection Classification",
+      "alternateUnits": [
+        "IEC IP Rating",
+        "Type Designation"
+      ],
+      "valueType": "SELECT",
+      "minValue": null,
+      "maxValue": null,
+      "allowsArray": false,
+      "examples": [
+        "NEMA 3R for outdoor electrical panels",
+        "NEMA 4X for coastal wastewater treatment facility controls",
+        "NEMA 12 for manufacturing plant motor control centers",
+        "NEMA 1 for general indoor distribution panels"
+      ],
+      "industryStandards": [
+        "NEMA 250 - Enclosures for Electrical Equipment",
+        "UL 50 - Enclosures for Electrical Equipment, Non-Environmental Considerations",
+        "UL 50E - Enclosures for Electrical Equipment, Environmental Considerations",
+        "NEC Article 110.28 - Enclosure Types",
+        "NEC Article 500 - Hazardous (Classified) Locations",
+        "IEC 60529 - Degrees of Protection (IP Code)"
+      ],
+      "valueOptions": [
+        {
+          "id": "e21988e4-fa04-450f-98e8-a37639d87dee",
+          "specTypeId": "93c7bcff-23dd-44b9-b18c-d715424f7c08",
+          "primaryValue": "NEMA 1",
+          "alternateNames": [
+            "NEMA Type 1",
+            "General Purpose Indoor",
+            "Basic Indoor Enclosure"
+          ],
+          "domain": "Indoor use, provides protection against contact with enclosed equipment and falling dirt"
+        },
+        {
+          "id": "542a0f08-a373-4fab-891f-4880753bf64e",
+          "specTypeId": "93c7bcff-23dd-44b9-b18c-d715424f7c08",
+          "primaryValue": "NEMA 3R",
+          "alternateNames": [
+            "NEMA Type 3R",
+            "Rainproof Enclosure",
+            "Weather Resistant Outdoor"
+          ],
+          "domain": "Outdoor use, protection against rain, sleet, and snow, but not dust or submersion"
+        },
+        {
+          "id": "734529dc-fc1d-4ac0-a282-06f4c13c321a",
+          "specTypeId": "93c7bcff-23dd-44b9-b18c-d715424f7c08",
+          "primaryValue": "NEMA 4",
+          "alternateNames": [
+            "NEMA Type 4",
+            "Watertight Enclosure",
+            "Hosedown Rated"
+          ],
+          "domain": "Indoor/outdoor use, watertight, dust-tight, protection against splashing water and hose-directed water"
+        },
+        {
+          "id": "9ef40728-d034-4180-9d2b-92e1e0badcd4",
+          "specTypeId": "93c7bcff-23dd-44b9-b18c-d715424f7c08",
+          "primaryValue": "NEMA 4X",
+          "alternateNames": [
+            "NEMA Type 4X",
+            "Corrosion Resistant Watertight",
+            "Stainless Steel Rated"
+          ],
+          "domain": "Indoor/outdoor use, watertight, dust-tight, corrosion-resistant for marine and chemical environments"
+        },
+        {
+          "id": "a722c738-a8d2-413a-9134-858f96fbadc0",
+          "specTypeId": "93c7bcff-23dd-44b9-b18c-d715424f7c08",
+          "primaryValue": "NEMA 12",
+          "alternateNames": [
+            "NEMA Type 12",
+            "Industrial Dusttight",
+            "Industrial Use Enclosure"
+          ],
+          "domain": "Indoor industrial use, protection against dust, falling dirt, dripping non-corrosive liquids"
+        },
+        {
+          "id": "407b6984-9b25-4e58-9eb6-767825a90409",
+          "specTypeId": "93c7bcff-23dd-44b9-b18c-d715424f7c08",
+          "primaryValue": "NEMA 7",
+          "alternateNames": [
+            "NEMA Type 7",
+            "Hazardous Location Class I",
+            "Explosion-Proof Enclosure"
+          ],
+          "domain": "Indoor hazardous locations, Class I Groups A, B, C, or D atmospheres per NEC Article 500"
+        },
+        {
+          "id": "10c166fb-4445-40f1-b907-0561228306d1",
+          "specTypeId": "93c7bcff-23dd-44b9-b18c-d715424f7c08",
+          "primaryValue": "NEMA 9",
+          "alternateNames": [
+            "NEMA Type 9",
+            "Hazardous Location Class II",
+            "Dust-Ignition-Proof"
+          ],
+          "domain": "Indoor hazardous locations, Class II Groups E, F, or G combustible dust atmospheres"
+        }
+      ]
+    },
+    {
+      "id": "a54fa19e-4ad5-443c-9250-72853390ee1f",
+      "primaryName": "Pipe Joint Method",
+      "alternateNames": [
+        "Pipe Connection Type",
+        "Piping Joint Configuration",
+        "Pipe Joining Technique",
+        "Pipe Fastening Method",
+        "Pipe Connection System"
+      ],
+      "notNames": [
+        "Pipe Material Type",
+        "Pipe Fitting Type"
+      ],
+      "description": "The method or technique used to connect and join sections of pipe together in a plumbing system. This specification defines the mechanical or chemical process used to create secure, leak-proof connections between pipe segments, fittings, and fixtures. The joint method must be compatible with the pipe material, system pressure rating, fluid type, and applicable codes. Different joint methods provide varying degrees of permanence, ease of installation, disassembly capability, and resistance to temperature and pressure conditions.",
+      "domain": "PLUMBING",
+      "primaryUnit": null,
+      "primaryUnitGroup": null,
+      "alternateUnits": [],
+      "valueType": "MULTI_SELECT",
+      "minValue": null,
+      "maxValue": null,
+      "allowsArray": true,
+      "examples": [
+        "Soldered Joint for copper water distribution piping",
+        "Grooved Mechanical Joint for steel fire protection piping",
+        "Solvent Cement Joint for PVC drain piping",
+        "Heat Fusion Joint for HDPE underground water service"
+      ],
+      "industryStandards": [
+        "IPC - International Plumbing Code",
+        "UPC - Uniform Plumbing Code",
+        "ASME B31.1",
+        "ASME B31.3",
+        "ASTM B828 (Brazed Joints)",
+        "ASTM D2855 (Solvent Cement)",
+        "ASTM F2620 (Heat Fusion)",
+        "AWWA C606 (Grooved Joints)"
+      ],
+      "valueOptions": [
+        {
+          "id": "d8f04546-6304-4fe1-b11b-38ca47515641",
+          "specTypeId": "a54fa19e-4ad5-443c-9250-72853390ee1f",
+          "primaryValue": "Soldered Joint",
+          "alternateNames": [
+            "Sweat Joint",
+            "Brazed Connection",
+            "Soldered Connection",
+            "Capillary Joint"
+          ],
+          "domain": "Copper pipe connections using solder alloy"
+        },
+        {
+          "id": "09768b17-4622-4408-8c04-bf5fa2c49c96",
+          "specTypeId": "a54fa19e-4ad5-443c-9250-72853390ee1f",
+          "primaryValue": "Threaded Joint",
+          "alternateNames": [
+            "Screwed Joint",
+            "NPT Connection",
+            "Threaded Connection",
+            "Screw-Type Joint"
+          ],
+          "domain": "Mechanical connection using pipe threads"
+        },
+        {
+          "id": "eb747527-debd-4386-960f-529aae5d7536",
+          "specTypeId": "a54fa19e-4ad5-443c-9250-72853390ee1f",
+          "primaryValue": "Welded Joint",
+          "alternateNames": [
+            "Fusion Welded",
+            "Butt Weld Connection",
+            "Socket Weld Joint",
+            "Welded Connection"
+          ],
+          "domain": "Metal pipes joined by welding process"
+        },
+        {
+          "id": "166a3ebd-b6f1-4c09-ae20-a5877cee2b0e",
+          "specTypeId": "a54fa19e-4ad5-443c-9250-72853390ee1f",
+          "primaryValue": "Grooved Mechanical Joint",
+          "alternateNames": [
+            "Grooved Coupling",
+            "Mechanical Grooved Connection",
+            "Roll Grooved Joint",
+            "Cut Grooved Joint"
+          ],
+          "domain": "Mechanical coupling with grooved pipe ends"
+        },
+        {
+          "id": "ad23442b-ac2b-4e3e-851a-310d5ca2fbfb",
+          "specTypeId": "a54fa19e-4ad5-443c-9250-72853390ee1f",
+          "primaryValue": "Compression Joint",
+          "alternateNames": [
+            "Compression Fitting",
+            "Compression Connection",
+            "Ferrule Joint",
+            "Compression-Type Joint"
+          ],
+          "domain": "Mechanical joint using compression ferrule"
+        },
+        {
+          "id": "4a9d1651-69bf-4670-868d-49f365fa74d5",
+          "specTypeId": "a54fa19e-4ad5-443c-9250-72853390ee1f",
+          "primaryValue": "Push-Fit Joint",
+          "alternateNames": [
+            "Push-to-Connect",
+            "Quick Connect Joint",
+            "Push-On Connection",
+            "Slip-Fit Joint"
+          ],
+          "domain": "Tool-free mechanical connection system"
+        },
+        {
+          "id": "a13091ce-1c15-431b-9f79-908983e0a560",
+          "specTypeId": "a54fa19e-4ad5-443c-9250-72853390ee1f",
+          "primaryValue": "Solvent Cement Joint",
+          "alternateNames": [
+            "Solvent Welded",
+            "Chemical Fusion Joint",
+            "Cement Welded Connection",
+            "Solvent Bonded Joint"
+          ],
+          "domain": "Plastic pipe joined by chemical solvent"
+        },
+        {
+          "id": "95c30a2e-1697-4625-9243-35a1240ceb87",
+          "specTypeId": "a54fa19e-4ad5-443c-9250-72853390ee1f",
+          "primaryValue": "Heat Fusion Joint",
+          "alternateNames": [
+            "Butt Fusion",
+            "Socket Fusion Joint",
+            "Electrofusion Joint",
+            "Thermal Fusion Connection"
+          ],
+          "domain": "Thermoplastic pipes joined by heat"
+        },
+        {
+          "id": "36a02596-2496-4591-98c3-03b20bd7855c",
+          "specTypeId": "a54fa19e-4ad5-443c-9250-72853390ee1f",
+          "primaryValue": "Flanged Joint",
+          "alternateNames": [
+            "Bolted Flange Connection",
+            "Flange Connection",
+            "Flanged Connection",
+            "Bolted Flanged Joint"
+          ],
+          "domain": "Mechanical joint using bolted flanges"
+        },
+        {
+          "id": "7db51b8e-01d1-407c-b5e1-8bd4279bc3e5",
+          "specTypeId": "a54fa19e-4ad5-443c-9250-72853390ee1f",
+          "primaryValue": "Press-Fit Joint",
+          "alternateNames": [
+            "Press Connection",
+            "Pressed Joint",
+            "Crimp Connection",
+            "Pressed Fitting Joint"
+          ],
+          "domain": "Mechanical connection using hydraulic press tool"
+        }
+      ]
+    },
+    {
+      "id": "733ed2c2-1287-41e3-ba3f-4baf3460c3da",
+      "primaryName": "Sprinkler System Operating Pressure",
+      "alternateNames": [
+        "Sprinkler Working Pressure",
+        "System Design Pressure",
+        "Sprinkler Head Operating Pressure",
+        "Fire Sprinkler Service Pressure",
+        "Sprinkler Network Pressure"
+      ],
+      "notNames": [
+        "Water Supply Pressure (static pressure at source, not operating pressure)",
+        "Residual Pressure (pressure while flowing, measured at hydrant or test outlet)",
+        "Sprinkler Discharge Pressure (pressure at individual head discharge point)"
+      ],
+      "description": "The minimum and maximum operating pressure range at which a fire sprinkler system is designed to function effectively. This pressure ensures adequate water distribution and discharge from sprinkler heads throughout the protected area. The operating pressure must be sufficient to overcome friction losses in the piping network and deliver the required flow density at the most remote sprinkler head. System design must account for pressure variations throughout the system while maintaining minimum pressures at all heads and not exceeding maximum rated pressures for components.",
+      "domain": "FIRE_PROTECTION",
+      "primaryUnit": "psi",
+      "primaryUnitGroup": "Pressure",
+      "alternateUnits": [
+        "bar",
+        "kPa",
+        "MPa"
+      ],
+      "valueType": "RANGE",
+      "minValue": 7,
+      "maxValue": 175,
+      "allowsArray": false,
+      "examples": [
+        "7-175 psi (typical range for standard spray sprinklers)",
+        "15-50 psi (common commercial system operating range)",
+        "25-100 psi (high-rise building sprinkler system)",
+        "50-175 psi (high-pressure water mist system)"
+      ],
+      "industryStandards": [
+        "NFPA 13 - Standard for the Installation of Sprinkler Systems",
+        "NFPA 25 - Standard for the Inspection, Testing, and Maintenance of Water-Based Fire Protection Systems",
+        "NFPA 14 - Standard for the Installation of Standpipe and Hose Systems",
+        "FM Global Property Loss Prevention Data Sheet 2-0",
+        "UL 199 - Automatic Sprinklers for Fire Protection Service"
+      ]
+    },
+    {
+      "id": "9fe54836-120d-43d2-9382-afdb181fcfb7",
+      "primaryName": "Variable Speed Capability",
+      "alternateNames": [
+        "VFD Compatible",
+        "Variable Frequency Drive Ready",
+        "Speed Modulation Capable",
+        "Variable Speed Drive Equipped",
+        "Adjustable Speed Capability"
+      ],
+      "notNames": [
+        "Fan Speed Setting",
+        "Motor Horsepower",
+        "Speed Control Type",
+        "Multi-Speed Operation"
+      ],
+      "description": "Indicates whether HVAC equipment (fans, pumps, compressors, blowers) has the capability to operate at variable speeds through integrated variable frequency drives (VFD) or is compatible with external VFD installation. This binary specification determines if the equipment can modulate its speed continuously rather than operating at fixed speeds only. Variable speed capability enables significant energy savings through part-load optimization, improved comfort control, and reduced mechanical stress. This is distinct from multi-speed equipment which operates at preset discrete speeds (low/medium/high). True indicates the equipment either has built-in variable speed controls or motor/drive compatibility for VFD retrofit.",
+      "domain": "HVAC",
+      "primaryUnit": null,
+      "primaryUnitGroup": null,
+      "alternateUnits": [],
+      "valueType": "BOOLEAN",
+      "minValue": null,
+      "maxValue": null,
+      "allowsArray": false,
+      "examples": [
+        "Supply fan with factory-installed VFD - true",
+        "Constant volume exhaust fan - false",
+        "Chilled water pump with VFD - true",
+        "Single-speed condenser fan - false",
+        "ECM motor air handler - true"
+      ],
+      "industryStandards": [
+        "ASHRAE 90.1 Section 6.5.3.1",
+        "ASHRAE Standard 90.4",
+        "International Energy Conservation Code (IECC)",
+        "California Title 24",
+        "NEMA MG 1",
+        "IEEE 519"
+      ],
+      "valueOptions": [
+        {
+          "id": "c33f66a3-2520-4880-9364-6fd127850082",
+          "specTypeId": "9fe54836-120d-43d2-9382-afdb181fcfb7",
+          "primaryValue": "true",
+          "alternateNames": [
+            "Yes",
+            "VFD Equipped",
+            "Variable Speed",
+            "VS Capable",
+            "Modulating",
+            "ECM Motor"
+          ],
+          "domain": "Equipment has variable speed capability or VFD compatibility"
+        },
+        {
+          "id": "b06d2c9c-d1bf-4e0d-b184-0f2bb1c6530b",
+          "specTypeId": "9fe54836-120d-43d2-9382-afdb181fcfb7",
+          "primaryValue": "false",
+          "alternateNames": [
+            "No",
+            "Fixed Speed",
+            "Constant Speed",
+            "Single Speed",
+            "Non-Variable"
+          ],
+          "domain": "Equipment operates at constant speed only"
+        }
+      ]
+    }
+  ],
+  "unitGroups": [],
+  "componentMappings": [],
+  "validationReport": {
+    "totalSpecTypes": 5,
+    "exactDuplicates": [],
+    "semanticDuplicates": [],
+    "missingAlternateNames": [],
+    "missingNotNames": [],
+    "invalidValueTypes": [],
+    "warnings": [],
+    "errors": []
+  },
+  "metadata": {
+    "generatedAt": "2025-09-30T15:40:02.716Z",
+    "mode": "test",
+    "totalSpecTypes": 5,
+    "domains": {
+      "HVAC": 2,
+      "ELECTRICAL": 1,
+      "PLUMBING": 1,
+      "FIRE_PROTECTION": 1
+    }
+  }
+}
