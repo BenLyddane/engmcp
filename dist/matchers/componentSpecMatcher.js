@@ -14,11 +14,18 @@ Component: ${component.name}
 Description: ${component.description}
 
 Spec Types to evaluate:
-${specTypeBatch.map((spec, idx) => `${idx + 1}. ${spec.primaryName} - ${spec.description.substring(0, 100)}...`).join('\n')}
+${specTypeBatch.map((spec, idx) => `${idx + 1}. ${spec.primaryName} - ${spec.description}`).join('\n\n')}
 
 For EACH spec type, determine if it's relevant to this component type.
 
-Mark as PRIMARY_SIZE if it's the main sizing parameter (like total cooling capacity for a chiller).
+IMPORTANT - PRIMARY_SIZE Rules:
+- The PRIMARY_SIZE is the SINGLE MOST IMPORTANT sizing parameter for this component
+- It determines the equipment's capacity or output rating
+- Examples: Cooling Capacity (tons) for chillers, Power Rating (kW) for transformers, Flow Rate (GPM) for pumps
+- Each component should have ONLY ONE PRIMARY_SIZE
+- If a spec is relevant but not the primary sizing parameter, mark it as N/A
+
+Mark as PRIMARY_SIZE ONLY if it is THE primary sizing parameter.
 Mark as N/A for all other relevant specs.
 
 Return ONLY a JSON object (no extra text):
@@ -96,14 +103,14 @@ Return ONLY a JSON object (no extra text):
  * Saves checkpoint after every batch
  */
 async function matchComponentToAllSpecs(component, allSpecTypes, componentIndex, totalComponents, globalMappings, saveCheckpoint) {
-    const batchSize = 5;
+    const batchSize = 20;
     const batches = [];
     for (let i = 0; i < allSpecTypes.length; i += batchSize) {
         batches.push(allSpecTypes.slice(i, i + batchSize));
     }
     const mappings = [];
     console.log(`\n[${componentIndex + 1}/${totalComponents}] ${component.name}`);
-    console.log(`  Checking ${allSpecTypes.length} spec types (${batches.length} batches of 5)...`);
+    console.log(`  Checking ${allSpecTypes.length} spec types (${batches.length} batches of ${batchSize})...`);
     for (let i = 0; i < batches.length; i++) {
         const batch = batches[i];
         const specsProcessed = Math.min((i + 1) * batchSize, allSpecTypes.length);
@@ -123,9 +130,12 @@ async function matchComponentToAllSpecs(component, allSpecTypes, componentIndex,
                 }
             }
             mappings.push(...batchMappings);
-            // SAVE AFTER EVERY BATCH
+            // Add to global mappings but save checkpoint less frequently
             globalMappings.push(...batchMappings);
-            saveCheckpoint(globalMappings);
+            // Save checkpoint every 5 batches or at the end
+            if ((i + 1) % 5 === 0 || i === batches.length - 1) {
+                saveCheckpoint(globalMappings);
+            }
         }
         catch (error) {
             console.error(`\n  ✗ Error batch ${i + 1}:`, error);
