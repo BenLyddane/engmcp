@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+engmcp-dashboard/node_modules/
+
+# Build output
+dist/
+engmcp-dashboard/.next/
+engmcp-dashboard/out/
+
+# Environment files (contains API keys)
+.env.local
+.env*.local
+engmcp-dashboard/.env.local
+
+# Output files (generated data - too large)
+output/*.json
+!output/.gitkeep
+
+# Large CSV files
+*FullDataDontRead.csv
+*DONTUSETHISTOOBIGTOREAD.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
