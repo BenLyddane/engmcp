@@ -4,7 +4,7 @@
 
 export type Domain = 'HVAC' | 'ELECTRICAL' | 'PLUMBING' | 'FIRE_PROTECTION';
 
-export type ValueType = 'NUMERIC' | 'SELECT' | 'MULTI_SELECT' | 'RANGE' | 'BOOLEAN';
+export type ValueType = 'NUMERIC' | 'SELECT' | 'MULTI_SELECT' | 'RANGE' | 'BOOLEAN' | 'STRING';
 
 export type ComponentSpecCategory = 'PRIMARY_SIZE' | 'N/A';
 

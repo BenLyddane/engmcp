@@ -17,6 +17,7 @@
     "match:components": "npm run build && node dist/matchers/componentSpecMatcher.js",
     "cleanup:duplicates": "npm run build && node dist/postprocess/cleanupDuplicates.js",
     "complete:conversions": "npm run build && node dist/postprocess/ensureCompleteConversions.js",
+    "fix:value-types": "npm run build && node dist/scripts/runValueTypeFixer.js",
     "clean": "rm -rf dist"
   },
   "keywords": [
